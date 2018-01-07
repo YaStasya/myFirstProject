@@ -1,0 +1,25 @@
+{
+  "name": "myfirstproject",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "emailjs": "^1.0.12",
+    "express": "~4.15.5",
+    "i": "^0.3.6",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "node-mailer": "^0.1.1",
+    "nodemailer": "^4.4.1",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "nodemon": "^1.14.8",
+    "npm": "^5.6.0",
+    "serve-favicon": "~2.4.5",
+    "xoauth2": "^1.2.0"
+  }
+}

@@ -1,0 +1,26 @@
+<div class="clientForm">
+    <h4>Хочу записаться к Вам...</h4>
+    <form action="/clientFormSub" id="calbackFormOrder" method="post">
+        <input type="text" class="entry" name="name" placeholder="Имя" value="">
+        <input type="text" class="entry" name="phone" placeholder="Телефон" value="">
+        <input type="text" class="entry" name="email" placeholder="Email" value="">
+        <input type="text" class="entry" name="date" placeholder="Дата" value="">
+        <input type="text" class="entry" name="time" placeholder="Время" value="">
+        <select  name="car">
+            <option value="Kia">Kia</option>
+            <option value="Volkswagen">Volkswagen</option>
+            <option value="Nissan">Nissan</option>
+            <option value="Opel">Opel</option>
+            <option value="Subaru">Subaru</option>
+            <option value="Skoda">Skoda</option>
+            <option value="Renault">Renault</option>
+            <option value="Honda">Honda</option>
+            <option value="Hyundai">Hyundai</option>
+            <option value="Mazda">Mazda</option>
+            <option value="Другая">Другая</option>
+        </select>
+        <textarea class="entry"  name="what" placeholder="Что случилось..."></textarea>
+        <p><input id="agreConf" type="checkbox" name="agree"><label for="agreConf">Я согласен(на) на обработку данных</label></p>
+        <input type="button" class="blueButton"  value="Отправить" disabled>
+    </form>
+</div>
